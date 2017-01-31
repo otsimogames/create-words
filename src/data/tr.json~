@@ -1,0 +1,1340 @@
+{
+    "settings/show_hint/title": "Show Hint",
+    "settings/show_hint/description": "Show hint",
+    "settings/hint_duration/title": "Hint Duration",
+    "settings/hint_duration/description": "Hint duration",
+    "loadingText": "Loading...",
+    "loadingFont": "60px Arial",
+    "loadingBackground": "#18B9F2",
+    "loadingColor": "#fff",
+    "background_image": "background",
+    "backgroundColor": "#90A39D",
+    "name_shadow": {
+        "x": 4,
+        "y": 4,
+        "color": "rgba(0,0,0,0.5)",
+        "blur": 4
+    },
+    "gameNameLayout": {
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "x": {
+            "multiplier": 0.5,
+            "constant": 0
+        },
+        "y": {
+            "multiplier": 0.35,
+            "constant": 0
+        }
+    },
+    "gameNameTextStyle": {
+        "strokeThickness": 18,
+        "stroke": "#FFFFFF",
+        "font": "98px mfont",
+        "fill": "#A39096",
+        "align": "center",
+        "maxLines": 2,
+        "wordWrap": true,
+        "wordWrapWidth": 960,
+        "boundsAlignH": "center",
+        "boundsAlignV": "top"
+    },
+    "homePlayButton": {
+        "anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "x": {
+            "multiplier": 0.5,
+            "constant": 0
+        },
+        "y": {
+            "multiplier": 0.7,
+            "constant": 0
+        }
+    },
+    "back_btn_constraint": {
+        "anchor": {
+            "x": 0,
+            "y": 0
+        },
+        "x": {
+            "multiplier": 0.02,
+            "constant": 0
+        },
+        "y": {
+            "multiplier": 0.022,
+            "constant": 0
+        }
+    },
+    "preload": [
+        {
+            "name": "background",
+            "type": "image",
+            "path": "img/background.png"
+        },
+        {
+            "name": "playButton",
+            "type": "image",
+            "path": "img/play.png"
+        },
+        {
+            "name": "back",
+            "type": "image",
+            "path": "img/back.png"
+        },
+        {
+            "name": "white_box",
+            "type": "image",
+            "path": "img/white_box.png"
+        },
+        {
+            "name": "hand",
+            "type": "image",
+            "path": "img/hand.png"
+        },
+        {
+            "name": "ballon_body",
+            "type": "image",
+            "path": "img/ballon/ballon_body.png"
+        },
+        {
+            "name": "ballon_light",
+            "type": "image",
+            "path": "img/ballon/ballon_light.png"
+        },
+        {
+            "name": "ballon_rope",
+            "type": "image",
+            "path": "img/ballon/ballon_rope.png"
+        },
+        {
+            "name": "ballon_star",
+            "type": "image",
+            "path": "img/ballon/ballon_star.png"
+        },
+        {
+            "name": "applause",
+            "type": "audio",
+            "path": "audio/applause.mp3"
+        },
+        {
+            "name": "congratulations",
+            "type": "audio",
+            "path": "audio/congratulations.mp3"
+        },
+        {
+            "name": "finish",
+            "type": "audio",
+            "path": "audio/finish.mp3"
+        },
+        {
+            "name": "balloon",
+            "type": "audio",
+            "path": "audio/balon.mp3"
+        },
+        {
+            "name": "backmusic",
+            "type": "audio",
+            "path": "audio/bg.mp3"
+        },
+        {
+            "name": "clickSound",
+            "type": "audio",
+            "path": "audio/click.mp3"
+        },
+        {
+            "name": "a_word",
+            "type": "image",
+            "path": "img/en/words/a.png"
+        },
+        {
+            "name": "b_word",
+            "type": "image",
+            "path": "img/en/words/b.png"
+        },
+        {
+            "name": "c_word",
+            "type": "image",
+            "path": "img/en/words/c.png"
+        },
+        {
+            "name": "c-_word",
+            "type": "image",
+            "path": "img/en/words/c-.png"
+        },
+        {
+            "name": "d_word",
+            "type": "image",
+            "path": "img/en/words/d.png"
+        },
+        {
+            "name": "e_word",
+            "type": "image",
+            "path": "img/en/words/e.png"
+        },
+        {
+            "name": "f_word",
+            "type": "image",
+            "path": "img/en/words/f.png"
+        },
+        {
+            "name": "g_word",
+            "type": "image",
+            "path": "img/en/words/g.png"
+        },
+        {
+            "name": "h_word",
+            "type": "image",
+            "path": "img/en/words/h.png"
+        },
+        {
+            "name": "i_word",
+            "type": "image",
+            "path": "img/en/words/i.png"
+        },
+        {
+            "name": "i-_word",
+            "type": "image",
+            "path": "img/en/words/i-.png"
+        },
+        {
+            "name": "j_word",
+            "type": "image",
+            "path": "img/en/words/j.png"
+        },
+        {
+            "name": "k_word",
+            "type": "image",
+            "path": "img/en/words/k.png"
+        },
+        {
+            "name": "l_word",
+            "type": "image",
+            "path": "img/en/words/l.png"
+        },
+        {
+            "name": "m_word",
+            "type": "image",
+            "path": "img/en/words/m.png"
+        },
+        {
+            "name": "n_word",
+            "type": "image",
+            "path": "img/en/words/n.png"
+        },
+        {
+            "name": "o_word",
+            "type": "image",
+            "path": "img/en/words/o.png"
+        },
+        {
+            "name": "o-_word",
+            "type": "image",
+            "path": "img/en/words/o-.png"
+        },
+        {
+            "name": "p_word",
+            "type": "image",
+            "path": "img/en/words/p.png"
+        },
+        {
+            "name": "r_word",
+            "type": "image",
+            "path": "img/en/words/r.png"
+        },
+        {
+            "name": "s_word",
+            "type": "image",
+            "path": "img/en/words/s.png"
+        },
+        {
+            "name": "s-_word",
+            "type": "image",
+            "path": "img/en/words/s-.png"
+        },
+        {
+            "name": "t_word",
+            "type": "image",
+            "path": "img/en/words/t.png"
+        },
+        {
+            "name": "u_word",
+            "type": "image",
+            "path": "img/en/words/u.png"
+        },
+        {
+            "name": "u-_word",
+            "type": "image",
+            "path": "img/en/words/u-.png"
+        },
+        {
+            "name": "v_word",
+            "type": "image",
+            "path": "img/en/words/v.png"
+        },
+        {
+            "name": "y_word",
+            "type": "image",
+            "path": "img/en/words/y.png"
+        },
+        {
+            "name": "z_word",
+            "type": "image",
+            "path": "img/en/words/z.png"
+        },
+        {
+            "name": "a_letter",
+            "type": "image",
+            "path": "img/letters/a.png"
+        },
+        {
+            "name": "b_letter",
+            "type": "image",
+            "path": "img/letters/b.png"
+        },
+        {
+            "name": "c_letter",
+            "type": "image",
+            "path": "img/letters/c.png"
+        },
+        {
+            "name": "c-_letter",
+            "type": "image",
+            "path": "img/letters/c-.png"
+        },
+        {
+            "name": "d_letter",
+            "type": "image",
+            "path": "img/letters/d.png"
+        },
+        {
+            "name": "e_letter",
+            "type": "image",
+            "path": "img/letters/e.png"
+        },
+        {
+            "name": "f_letter",
+            "type": "image",
+            "path": "img/letters/f.png"
+        },
+        {
+            "name": "g_letter",
+            "type": "image",
+            "path": "img/letters/g.png"
+        },
+        {
+            "name": "g-_letter",
+            "type": "image",
+            "path": "img/letters/g-.png"
+        },
+        {
+            "name": "h_letter",
+            "type": "image",
+            "path": "img/letters/h.png"
+        },
+        {
+            "name": "i_letter",
+            "type": "image",
+            "path": "img/letters/i.png"
+        },
+        {
+            "name": "i-_letter",
+            "type": "image",
+            "path": "img/letters/i-.png"
+        },
+        {
+            "name": "j_letter",
+            "type": "image",
+            "path": "img/letters/j.png"
+        },
+        {
+            "name": "k_letter",
+            "type": "image",
+            "path": "img/letters/k.png"
+        },
+        {
+            "name": "l_letter",
+            "type": "image",
+            "path": "img/letters/l.png"
+        },
+        {
+            "name": "m_letter",
+            "type": "image",
+            "path": "img/letters/m.png"
+        },
+        {
+            "name": "n_letter",
+            "type": "image",
+            "path": "img/letters/n.png"
+        },
+        {
+            "name": "o_letter",
+            "type": "image",
+            "path": "img/letters/o.png"
+        },
+        {
+            "name": "o-_letter",
+            "type": "image",
+            "path": "img/letters/o-.png"
+        },
+        {
+            "name": "p_letter",
+            "type": "image",
+            "path": "img/letters/p.png"
+        },
+        {
+            "name": "r_letter",
+            "type": "image",
+            "path": "img/letters/r.png"
+        },
+        {
+            "name": "s_letter",
+            "type": "image",
+            "path": "img/letters/s.png"
+        },
+        {
+            "name": "s-_letter",
+            "type": "image",
+            "path": "img/letters/s-.png"
+        },
+        {
+            "name": "t_letter",
+            "type": "image",
+            "path": "img/letters/t.png"
+        },
+        {
+            "name": "u_letter",
+            "type": "image",
+            "path": "img/letters/u.png"
+        },
+        {
+            "name": "u-_letter",
+            "type": "image",
+            "path": "img/letters/u-.png"
+        },
+        {
+            "name": "v_letter",
+            "type": "image",
+            "path": "img/letters/v.png"
+        },
+        {
+            "name": "y_letter",
+            "type": "image",
+            "path": "img/letters/y.png"
+        },
+        {
+            "name": "z_letter",
+            "type": "image",
+            "path": "img/letters/z.png"
+        },
+        {
+            "name": "a_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/ayakkabi.mp3"
+        },
+        {
+            "name": "b_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/bardak.mp3"
+        },
+        {
+            "name": "c_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/ceviz.mp3"
+        },
+        {
+            "name": "c-_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/cicek.mp3"
+        },
+        {
+            "name": "d_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/dolap.mp3"
+        },
+        {
+            "name": "e_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/eldiven.mp3"
+        },
+        {
+            "name": "f_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/firca.mp3"
+        },
+        {
+            "name": "g_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/gemi.mp3"
+        },
+        {
+            "name": "h_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/hali.mp3"
+        },
+        {
+            "name": "i_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/inek.mp3"
+        },
+        {
+            "name": "i-_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/islak_mendil.mp3"
+        },
+        {
+            "name": "j_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/jilet.mp3"
+        },
+        {
+            "name": "k_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/kitap.mp3"
+        },
+        {
+            "name": "l_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/lale.mp3"
+        },
+        {
+            "name": "m_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/masa.mp3"
+        },
+        {
+            "name": "n_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/nehir.mp3"
+        },
+        {
+            "name": "o_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/orman.mp3"
+        },
+        {
+            "name": "o-_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/orgu.mp3"
+        },
+        {
+            "name": "p_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/patates.mp3"
+        },
+        {
+            "name": "r_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/resim.mp3"
+        },
+        {
+            "name": "s_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/sarimsak.mp3"
+        },
+        {
+            "name": "s-_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/sort.mp3"
+        },
+        {
+            "name": "t_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/tekerlek.mp3"
+        },
+        {
+            "name": "u_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/ucak.mp3"
+        },
+        {
+            "name": "u-_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/utu.mp3"
+        },
+        {
+            "name": "v_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/vazo.mp3"
+        },
+        {
+            "name": "y_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/yumurta.mp3"
+        },
+        {
+            "name": "z_word_audio",
+            "type": "audio",
+            "path": "audio/sounde/zarf.mp3"
+        },
+        {
+            "name": "a_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/a.mp3"
+        },
+        {
+            "name": "b_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/b.mp3"
+        },
+        {
+            "name": "c_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/c.mp3"
+        },
+        {
+            "name": "c-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/c-.mp3"
+        },
+        {
+            "name": "d_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/d.mp3"
+        },
+        {
+            "name": "e_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/e.mp3"
+        },
+        {
+            "name": "f_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/f.mp3"
+        },
+        {
+            "name": "g_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/g.mp3"
+        },
+        {
+            "name": "g-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/g-.mp3"
+        },
+        {
+            "name": "h_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/h.mp3"
+        },
+        {
+            "name": "i_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/i.mp3"
+        },
+        {
+            "name": "i-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/i-.mp3"
+        },
+        {
+            "name": "j_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/j.mp3"
+        },
+        {
+            "name": "k_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/k.mp3"
+        },
+        {
+            "name": "l_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/l.mp3"
+        },
+        {
+            "name": "m_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/m.mp3"
+        },
+        {
+            "name": "n_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/n.mp3"
+        },
+        {
+            "name": "o_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/o.mp3"
+        },
+        {
+            "name": "o-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/o-.mp3"
+        },
+        {
+            "name": "p_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/p.mp3"
+        },
+        {
+            "name": "r_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/r.mp3"
+        },
+        {
+            "name": "s_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/s.mp3"
+        },
+        {
+            "name": "s-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/s-.mp3"
+        },
+        {
+            "name": "t_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/t.mp3"
+        },
+        {
+            "name": "u_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/u.mp3"
+        },
+        {
+            "name": "u-_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/u-.mp3"
+        },
+        {
+            "name": "v_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/v.mp3"
+        },
+        {
+            "name": "y_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/y.mp3"
+        },
+        {
+            "name": "z_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/z.mp3"
+        }
+    ],
+    "words": [
+        {
+            "id": "a_word",
+            "kind": "word",
+            "audio": "a_word_audio",
+            "question": "a_word_question",
+            "tint": "0x0000FF",
+            "text": "ayakkabı",
+            "image": "a_word",
+            "tts": false
+        },
+        {
+            "id": "b_word",
+            "kind": "word",
+            "audio": "b_word_audio",
+            "question": "b_word_question",
+            "tint": "0x0000FF",
+            "text": "bardak",
+            "image": "b_word",
+            "tts": false
+        },
+        {
+            "id": "c_word",
+            "kind": "word",
+            "audio": "c_word_audio",
+            "question": "c_word_question",
+            "tint": "0x0000FF",
+            "text": "ceviz",
+            "image": "c_word",
+            "tts": false
+        },
+        {
+            "id": "c-_word",
+            "kind": "word",
+            "audio": "c-_word_audio",
+            "question": "c-_word_question",
+            "tint": "0x0000FF",
+            "text": "çiçek",
+            "image": "c-_word",
+            "tts": false
+        },
+        {
+            "id": "d_word",
+            "kind": "word",
+            "audio": "d_word_audio",
+            "question": "d_word_question",
+            "tint": "0x0000FF",
+            "text": "dolap",
+            "image": "d_word",
+            "tts": false
+        },
+        {
+            "id": "e_word",
+            "kind": "word",
+            "audio": "e_word_audio",
+            "question": "e_word_question",
+            "tint": "0x0000FF",
+            "text": "eldiven",
+            "image": "e_word",
+            "tts": false
+        },
+        {
+            "id": "f_word",
+            "kind": "word",
+            "audio": "f_word_audio",
+            "question": "f_word_question",
+            "tint": "0x0000FF",
+            "text": "fırça",
+            "image": "f_word",
+            "tts": false
+        },
+        {
+            "id": "g_word",
+            "kind": "word",
+            "audio": "g_word_audio",
+            "question": "g_word_question",
+            "tint": "0x0000FF",
+            "text": "gemi",
+            "image": "g_word",
+            "tts": false
+        },
+        {
+            "id": "h_word",
+            "kind": "word",
+            "audio": "h_word_audio",
+            "question": "h_word_question",
+            "tint": "0x0000FF",
+            "text": "halı",
+            "image": "h_word",
+            "tts": false
+        },
+        {
+            "id": "i_word",
+            "kind": "word",
+            "audio": "i_word_audio",
+            "question": "i_word_question",
+            "tint": "0x0000FF",
+            "text": "inek",
+            "image": "i_word",
+            "tts": false
+        },
+        {
+            "id": "i-_word",
+            "kind": "word",
+            "audio": "i-_word_audio",
+            "question": "i-_word_question",
+            "tint": "0x0000FF",
+            "text": "ıslak mendil",
+            "image": "i-_word",
+            "tts": false
+        },
+        {
+            "id": "j_word",
+            "kind": "word",
+            "audio": "j_word_audio",
+            "question": "j_word_question",
+            "tint": "0x0000FF",
+            "text": "jilet",
+            "image": "j_word",
+            "tts": false
+        },
+        {
+            "id": "k_word",
+            "kind": "word",
+            "audio": "k_word_audio",
+            "question": "k_word_question",
+            "tint": "0x0000FF",
+            "text": "kitap",
+            "image": "k_word",
+            "tts": false
+        },
+        {
+            "id": "l_word",
+            "kind": "word",
+            "audio": "l_word_audio",
+            "question": "l_word_question",
+            "tint": "0x0000FF",
+            "text": "lale",
+            "image": "l_word",
+            "tts": false
+        },
+        {
+            "id": "m_word",
+            "kind": "word",
+            "audio": "m_word_audio",
+            "question": "m_word_question",
+            "tint": "0x0000FF",
+            "text": "masa",
+            "image": "m_word",
+            "tts": false
+        },
+        {
+            "id": "n_word",
+            "kind": "word",
+            "audio": "n_word_audio",
+            "question": "n_word_question",
+            "tint": "0x0000FF",
+            "text": "nehir",
+            "image": "n_word",
+            "tts": false
+        },
+        {
+            "id": "o_word",
+            "kind": "word",
+            "audio": "o_word_audio",
+            "question": "o_word_question",
+            "tint": "0x0000FF",
+            "text": "orman",
+            "image": "o_word",
+            "tts": false
+        },
+        {
+            "id": "o-_word",
+            "kind": "word",
+            "audio": "o-_word_audio",
+            "question": "o-_word_question",
+            "tint": "0x0000FF",
+            "text": "örtü",
+            "image": "o-_word",
+            "tts": false
+        },
+        {
+            "id": "p_word",
+            "kind": "word",
+            "audio": "p_word_audio",
+            "question": "p_word_question",
+            "tint": "0x0000FF",
+            "text": "patates",
+            "image": "p_word",
+            "tts": false
+        },
+        {
+            "id": "r_word",
+            "kind": "word",
+            "audio": "r_word_audio",
+            "question": "r_word_question",
+            "tint": "0x0000FF",
+            "text": "resim",
+            "image": "r_word",
+            "tts": false
+        },
+        {
+            "id": "s_word",
+            "kind": "word",
+            "audio": "s_word_audio",
+            "question": "s_word_question",
+            "tint": "0x0000FF",
+            "text": "soğan",
+            "image": "s_word",
+            "tts": false
+        },
+        {
+            "id": "s-_word",
+            "kind": "word",
+            "audio": "s-_word_audio",
+            "question": "s-_word_question",
+            "tint": "0x0000FF",
+            "text": "şort",
+            "image": "s-_word",
+            "tts": false
+        },
+        {
+            "id": "t_word",
+            "kind": "word",
+            "audio": "t_word_audio",
+            "question": "t_word_question",
+            "tint": "0x0000FF",
+            "text": "tekerlek",
+            "image": "t_word",
+            "tts": false
+        },
+        {
+            "id": "u_word",
+            "kind": "word",
+            "audio": "u_word_audio",
+            "question": "u_word_question",
+            "tint": "0x0000FF",
+            "text": "uçak",
+            "image": "u_word",
+            "tts": false
+        },
+        {
+            "id": "u-_word",
+            "kind": "word",
+            "audio": "u-_word_audio",
+            "question": "u-_word_question",
+            "tint": "0x0000FF",
+            "text": "ütü",
+            "image": "u-_word",
+            "tts": false
+        },
+        {
+            "id": "v_word",
+            "kind": "word",
+            "audio": "v_word_audio",
+            "question": "v_word_question",
+            "tint": "0x0000FF",
+            "text": "vazo",
+            "image": "v_word",
+            "tts": false
+        },
+        {
+            "id": "y_word",
+            "kind": "word",
+            "audio": "y_word_audio",
+            "question": "y_word_question",
+            "tint": "0x0000FF",
+            "text": "yumurta",
+            "image": "y_word",
+            "tts": false
+        },
+        {
+            "id": "z_word",
+            "kind": "word",
+            "audio": "z_word_audio",
+            "question": "z_word_question",
+            "tint": "0x0000FF",
+            "text": "zarf",
+            "image": "z_word",
+            "tts": false
+        }
+    ],
+    "letters": {
+        "a": {
+            "id": "a_letter",
+            "kind": "letter",
+            "audio": "a_letter_audio",
+            "image": "a_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "b": {
+            "id": "b_letter",
+            "kind": "letter",
+            "audio": "b_letter_audio",
+            "image": "b_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "c": {
+            "id": "c_letter",
+            "kind": "letter",
+            "audio": "c_letter_audio",
+            "image": "c_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ç": {
+            "id": "c-_letter",
+            "kind": "letter",
+            "audio": "c-_letter_audio",
+            "image": "c-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "d": {
+            "id": "d_letter",
+            "kind": "letter",
+            "audio": "d_letter_audio",
+            "image": "d_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "e": {
+            "id": "e_letter",
+            "kind": "letter",
+            "audio": "e_letter_audio",
+            "image": "e_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "f": {
+            "id": "f_letter",
+            "kind": "letter",
+            "audio": "f_letter_audio",
+            "image": "f_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "g": {
+            "id": "g_letter",
+            "kind": "letter",
+            "audio": "g_letter_audio",
+            "image": "g_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ğ": {
+            "id": "g-_letter",
+            "kind": "letter",
+            "audio": "g-_letter_audio",
+            "image": "g-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "h": {
+            "id": "h_letter",
+            "kind": "letter",
+            "audio": "h_letter_audio",
+            "image": "h_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "i": {
+            "id": "i_letter",
+            "kind": "letter",
+            "audio": "i_letter_audio",
+            "image": "i_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ı": {
+            "id": "i-_letter",
+            "kind": "letter",
+            "audio": "i-_letter_audio",
+            "image": "i-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "j": {
+            "id": "j_letter",
+            "kind": "letter",
+            "audio": "j_letter_audio",
+            "image": "j_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "k": {
+            "id": "k_letter",
+            "kind": "letter",
+            "audio": "k_letter_audio",
+            "image": "k_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "l": {
+            "id": "l_letter",
+            "kind": "letter",
+            "audio": "l_letter_audio",
+            "image": "l_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "m": {
+            "id": "m_letter",
+            "kind": "letter",
+            "audio": "m_letter_audio",
+            "image": "m_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "n": {
+            "id": "n_letter",
+            "kind": "letter",
+            "audio": "n_letter_audio",
+            "image": "n_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "o": {
+            "id": "o_letter",
+            "kind": "letter",
+            "audio": "o_letter_audio",
+            "image": "o_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ö": {
+            "id": "o-_letter",
+            "kind": "letter",
+            "audio": "o-_letter_audio",
+            "image": "o-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "p": {
+            "id": "p_letter",
+            "kind": "letter",
+            "audio": "p_letter_audio",
+            "image": "p_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "r": {
+            "id": "r_letter",
+            "kind": "letter",
+            "audio": "r_letter_audio",
+            "image": "r_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "s": {
+            "id": "s_letter",
+            "kind": "letter",
+            "audio": "s_letter_audio",
+            "image": "s_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ş": {
+            "id": "s-_letter",
+            "kind": "letter",
+            "audio": "s-_letter_audio",
+            "image": "s-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "t": {
+            "id": "t_letter",
+            "kind": "letter",
+            "audio": "t_letter_audio",
+            "image": "t_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "u": {
+            "id": "u_letter",
+            "kind": "letter",
+            "audio": "u_letter_audio",
+            "image": "u_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "ü": {
+            "id": "u-_letter",
+            "kind": "letter",
+            "audio": "u-_letter_audio",
+            "image": "u-_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "v": {
+            "id": "v_letter",
+            "kind": "letter",
+            "audio": "v_letter_audio",
+            "image": "v_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "y": {
+            "id": "y_letter",
+            "kind": "letter",
+            "audio": "y_letter_audio",
+            "image": "y_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        },
+        "z": {
+            "id": "z_letter",
+            "kind": "letter",
+            "audio": "z_letter_audio",
+            "image": "z_letter",
+            "tint": "0x0000FF",
+            "tts": false
+        }
+    },
+    "layout": {
+        "answer_y_constant": 0.65,
+        "relayout_duration": 700,
+        "max_item": 10,
+        "move_away_duration": 1000,
+        "show_layout_duration": 1000,
+        "cell_anchor": {
+            "x": 0.5,
+            "y": 0.5
+        },
+        "width": 0.7,
+        "above_space": 0.096,
+        "bar_length_constant": 0.25
+    },
+    "ending_scene": {
+        "victory_sound": "victorySound",
+        "duration": 1000,
+        "finish_sound": "finishSound",
+        "text": {
+            "text": "Tebrikler",
+            "sound": "congSound",
+            "style": {
+                "strokeThickness": 18,
+                "stroke": "#FFFFFF",
+                "font": "98px mfont",
+                "fill": "#C43939",
+                "align": "center",
+                "maxLines": 2,
+                "wordWrap": true,
+                "wordWrapWidth": 960,
+                "boundsAlignH": "center",
+                "boundsAlignV": "top"
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 0.5,
+                "constant": 0
+            },
+            "y": {
+                "multiplier": 0.3,
+                "constant": 0
+            }
+        },
+        "button": {
+            "image": "playButton",
+            "delay": 3000,
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            },
+            "x": {
+                "multiplier": 0.5,
+                "constant": 0
+            },
+            "y": {
+                "multiplier": 0.7,
+                "constant": 0
+            }
+        }
+    },
+    "hint": {
+        "type": "hand",
+        "hand_duration": 500,
+        "jump_duration": 300,
+        "hand_match_duration": 900
+    },
+    "game": {
+        "session_step": 2,
+        "limit_score": 0,
+        "score_per_letter": 2,
+        "balloon_options": {
+            "count": 15,
+            "luminosity": "bright"
+        },
+        "hidden_pos": {
+            "x": 0,
+            "y": 1.5
+        },
+        "visible_pos": {
+            "x": 0,
+            "y": 0
+        },
+        "onDragStopDuration": 600,
+        "word_item_x": 0.5,
+        "word_item_y": 0.3,
+        "word_placeholder_x": 0.5,
+        "word_placeholder_y": 0.8,
+        "word_letters_x": 0.5,
+        "word_letters_y": 0.6,
+        "balloon_sound": "balloon",
+        "correct_sound": "applause",
+        "click_sound": "clickSound"
+    },
+    "game_music": {
+        "music": "backmusic",
+        "volume": 1,
+        "loop": true,
+        "volume_load_screen": 1,
+        "volume_home_screen": 1,
+        "volume_play_screen": 0.3,
+        "volume_over_screen": 0.7
+    }
+}

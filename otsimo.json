@@ -1,0 +1,57 @@
+{
+    "unique_name": "create-words",
+    "version": "0.7.0",
+    "main": "index.html",
+    "licence": "Apache 2",
+    "languages": [
+        "en"
+    ],
+    "default_language": "tr",
+    "developer_name": "Otsimo",
+    "homepage": "https://github.com/otsimogames/create-words",
+    "repository": "https://github.com/otsimogames/create-words.git",
+    "authors": [
+        {
+            "name": "Otsimo",
+            "email": "info@otsimo.com"
+        }
+    ],
+    "exclude": [],
+    "settings": "settings.json",
+    "kv_path": "data",
+    "loading_color": "#FAC51C",
+    "metadata": [
+        {
+            "language": "en",
+            "visible_name": "Create Words",
+            "summary": "",
+            "description": "--TODO--",
+            "keywords": [
+                "game"
+            ],
+            "logo": "i18n/en/template-logo.png",
+            "icon": "i18n/en/template-icon.png",
+            "images": [],
+            "assets": [
+                "img/en",
+                "audio/en"
+            ]
+        },
+        {
+            "language": "tr",
+            "visible_name": "Sözcük Oluşturma",
+            "summary": "Harfleri doğru sıraya dizerek sözcük oluşturma oyunu",
+            "description": "--TODO--",
+            "keywords": [
+                "game"
+            ],
+            "logo": "i18n/tr/template-logo.png",
+            "icon": "i18n/tr/template-icon.png",
+            "images": [],
+            "assets": [
+                "img/tr",
+                "audio/tr"
+            ]
+        }
+    ]
+}
