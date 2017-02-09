@@ -155,142 +155,142 @@
         {
             "name": "a_word",
             "type": "image",
-            "path": "img/en/words/a.png"
+            "path": "img/tr/words/a.png"
         },
         {
             "name": "b_word",
             "type": "image",
-            "path": "img/en/words/b.png"
+            "path": "img/tr/words/b.png"
         },
         {
             "name": "c_word",
             "type": "image",
-            "path": "img/en/words/c.png"
+            "path": "img/tr/words/c.png"
         },
         {
             "name": "c-_word",
             "type": "image",
-            "path": "img/en/words/c-.png"
+            "path": "img/tr/words/c-.png"
         },
         {
             "name": "d_word",
             "type": "image",
-            "path": "img/en/words/d.png"
+            "path": "img/tr/words/d.png"
         },
         {
             "name": "e_word",
             "type": "image",
-            "path": "img/en/words/e.png"
+            "path": "img/tr/words/e.png"
         },
         {
             "name": "f_word",
             "type": "image",
-            "path": "img/en/words/f.png"
+            "path": "img/tr/words/f.png"
         },
         {
             "name": "g_word",
             "type": "image",
-            "path": "img/en/words/g.png"
+            "path": "img/tr/words/g.png"
         },
         {
             "name": "h_word",
             "type": "image",
-            "path": "img/en/words/h.png"
+            "path": "img/tr/words/h.png"
         },
         {
             "name": "i_word",
             "type": "image",
-            "path": "img/en/words/i.png"
+            "path": "img/tr/words/i.png"
         },
         {
             "name": "i-_word",
             "type": "image",
-            "path": "img/en/words/i-.png"
+            "path": "img/tr/words/i-.png"
         },
         {
             "name": "j_word",
             "type": "image",
-            "path": "img/en/words/j.png"
+            "path": "img/tr/words/j.png"
         },
         {
             "name": "k_word",
             "type": "image",
-            "path": "img/en/words/k.png"
+            "path": "img/tr/words/k.png"
         },
         {
             "name": "l_word",
             "type": "image",
-            "path": "img/en/words/l.png"
+            "path": "img/tr/words/l.png"
         },
         {
             "name": "m_word",
             "type": "image",
-            "path": "img/en/words/m.png"
+            "path": "img/tr/words/m.png"
         },
         {
             "name": "n_word",
             "type": "image",
-            "path": "img/en/words/n.png"
+            "path": "img/tr/words/n.png"
         },
         {
             "name": "o_word",
             "type": "image",
-            "path": "img/en/words/o.png"
+            "path": "img/tr/words/o.png"
         },
         {
             "name": "o-_word",
             "type": "image",
-            "path": "img/en/words/o-.png"
+            "path": "img/tr/words/o-.png"
         },
         {
             "name": "p_word",
             "type": "image",
-            "path": "img/en/words/p.png"
+            "path": "img/tr/words/p.png"
         },
         {
             "name": "r_word",
             "type": "image",
-            "path": "img/en/words/r.png"
+            "path": "img/tr/words/r.png"
         },
         {
             "name": "s_word",
             "type": "image",
-            "path": "img/en/words/s.png"
+            "path": "img/tr/words/s.png"
         },
         {
             "name": "s-_word",
             "type": "image",
-            "path": "img/en/words/s-.png"
+            "path": "img/tr/words/s-.png"
         },
         {
             "name": "t_word",
             "type": "image",
-            "path": "img/en/words/t.png"
+            "path": "img/tr/words/t.png"
         },
         {
             "name": "u_word",
             "type": "image",
-            "path": "img/en/words/u.png"
+            "path": "img/tr/words/u.png"
         },
         {
             "name": "u-_word",
             "type": "image",
-            "path": "img/en/words/u-.png"
+            "path": "img/tr/words/u-.png"
         },
         {
             "name": "v_word",
             "type": "image",
-            "path": "img/en/words/v.png"
+            "path": "img/tr/words/v.png"
         },
         {
             "name": "y_word",
             "type": "image",
-            "path": "img/en/words/y.png"
+            "path": "img/tr/words/y.png"
         },
         {
             "name": "z_word",
             "type": "image",
-            "path": "img/en/words/z.png"
+            "path": "img/tr/words/z.png"
         },
         {
             "name": "a_letter",
@@ -930,7 +930,7 @@
             "audio": "s_word_audio",
             "question": "s_word_question",
             "tint": "0x0000FF",
-            "text": "soğan",
+            "text": "sarımsak",
             "image": "s_word",
             "tts": false
         },
@@ -1309,7 +1309,7 @@
         "hand_match_duration": 900
     },
     "game": {
-        "session_step": 2,
+        "session_step": 10,
         "limit_score": 0,
         "score_per_letter": 2,
         "balloon_options": {

@@ -1,6 +1,6 @@
 {
     "unique_name": "create-words",
-    "version": "0.7.0",
+    "version": "0.9.0",
     "main": "index.html",
     "licence": "Apache 2",
     "languages": [
@@ -24,13 +24,13 @@
         {
             "language": "en",
             "visible_name": "Create Words",
-            "summary": "",
-            "description": "--TODO--",
+            "summary": "A game for learning to create words",
+            "description": "Children can learn to form words from letters in correct order",
             "keywords": [
                 "game"
             ],
-            "logo": "i18n/en/template-logo.png",
-            "icon": "i18n/en/template-icon.png",
+            "logo": "i18n/en/create-words-s-en.png",
+            "icon": "i18n/en/create-words-b-en.png",
             "images": [],
             "assets": [
                 "img/en",
@@ -41,12 +41,12 @@
             "language": "tr",
             "visible_name": "Sözcük Oluşturma",
             "summary": "Harfleri doğru sıraya dizerek sözcük oluşturma oyunu",
-            "description": "--TODO--",
+            "description": "Çocuklar sözcüklerin içindeki harfleri doğru sıraya dizerek sözcükleri yazmayı öğrenir ve pekiştirebilirler",
             "keywords": [
                 "game"
             ],
-            "logo": "i18n/tr/template-logo.png",
-            "icon": "i18n/tr/template-icon.png",
+            "logo": "i18n/tr/create-words-s.png",
+            "icon": "i18n/tr/create-words-b.png",
             "images": [],
             "assets": [
                 "img/tr",
