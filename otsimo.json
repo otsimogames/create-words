@@ -1,6 +1,6 @@
 {
     "unique_name": "create-words",
-    "version": "1.0.1",
+    "version": "1.0.13",
     "main": "index.html",
     "licence": "Apache 2",
     "languages": [
@@ -8,6 +8,10 @@
     ],
     "default_language": "tr",
     "developer_name": "Otsimo",
+    "ab_test": "",
+    "labels": {
+        "categories": "letter, word, create"
+    },
     "homepage": "https://github.com/otsimogames/create-words",
     "repository": "https://github.com/otsimogames/create-words.git",
     "authors": [
@@ -27,11 +31,15 @@
             "summary": "A game for learning to create words",
             "description": "Children can learn to form words from letters in correct order",
             "keywords": [
-                "game"
+                "game", "word", "create", "letter"
             ],
             "logo": "i18n/en/create-words-s-en.png",
             "icon": "i18n/en/create-words-b-en.png",
-            "images": [],
+            "images": [
+                "i18n/en/cw-src.png",
+                "i18n/en/cw-src2.png",
+                "i18n/en/cw-src3.png"
+            ],
             "assets": [
                 "img/en",
                 "audio/en"
@@ -43,11 +51,15 @@
             "summary": "Harfleri doğru sıraya dizerek sözcük oluşturma oyunu",
             "description": "Çocuklar sözcüklerin içindeki harfleri doğru sıraya dizerek sözcükleri yazmayı öğrenir ve pekiştirebilirler",
             "keywords": [
-                "game"
+                "oyun", "sözcük", "harf", "dizme"
             ],
             "logo": "i18n/tr/create-words-s.png",
             "icon": "i18n/tr/create-words-b.png",
-            "images": [],
+            "images": [
+                "i18n/tr/cw-src.png",
+                "i18n/tr/cw-src2.png",
+                "i18n/tr/cw-src3.png"
+            ],
             "assets": [
                 "img/tr",
                 "audio/tr"

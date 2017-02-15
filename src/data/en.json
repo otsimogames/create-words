@@ -1,12 +1,4 @@
 {
-    "settings/difficulty/title": "Difficulty",
-    "settings/difficulty/description": "Difficulty of the game",
-    "settings/difficulty/keys/easy/title": "Easy",
-    "settings/difficulty/keys/easy/description": "Easy",
-    "settings/difficulty/keys/medium/title": "Medium",
-    "settings/difficulty/keys/medium/description": "Medium",
-    "settings/difficulty/keys/hard/title": "Hard",
-    "settings/difficulty/keys/hard/description": "Hard",
     "settings/show_hint/title": "Show Hint",
     "settings/show_hint/description": "Enable or Disable the hints during the game",
     "settings/hint_duration/title": "Hint Duration",
@@ -325,7 +317,7 @@
         {
             "name": "i_letter",
             "type": "image",
-            "path": "img/letters/i.png"
+            "path": "img/letters/i-.png"
         },
         {
             "name": "j_letter",
@@ -682,6 +674,7 @@
             "audio": "a_letter_audio",
             "image": "a_letter",
             "tint": "0x0000FF",
+            "text": "a",
             "tts": true
         },
         "b": {
@@ -690,6 +683,7 @@
             "audio": "b_letter_audio",
             "image": "b_letter",
             "tint": "0x0000FF",
+            "text": "b",
             "tts": true
         },
         "c": {
@@ -698,6 +692,7 @@
             "audio": "c_letter_audio",
             "image": "c_letter",
             "tint": "0x0000FF",
+            "text": "c",
             "tts": true
         },
         "d": {
@@ -706,6 +701,7 @@
             "audio": "d_letter_audio",
             "image": "d_letter",
             "tint": "0x0000FF",
+            "text": "d",
             "tts": true
         },
         "e": {
@@ -714,6 +710,7 @@
             "audio": "e_letter_audio",
             "image": "e_letter",
             "tint": "0x0000FF",
+            "text": "e",
             "tts": true
         },
         "f": {
@@ -722,6 +719,7 @@
             "audio": "f_letter_audio",
             "image": "f_letter",
             "tint": "0x0000FF",
+            "text": "f",
             "tts": true
         },
         "g": {
@@ -730,6 +728,7 @@
             "audio": "g_letter_audio",
             "image": "g_letter",
             "tint": "0x0000FF",
+            "text": "g",
             "tts": true
         },
         "h": {
@@ -738,6 +737,7 @@
             "audio": "h_letter_audio",
             "image": "h_letter",
             "tint": "0x0000FF",
+            "text": "h",
             "tts": true
         },
         "i": {
@@ -746,6 +746,7 @@
             "audio": "i_letter_audio",
             "image": "i_letter",
             "tint": "0x0000FF",
+            "text": "i",
             "tts": true
         },
         "j": {
@@ -754,6 +755,7 @@
             "audio": "j_letter_audio",
             "image": "j_letter",
             "tint": "0x0000FF",
+            "text": "j",
             "tts": true
         },
         "k": {
@@ -762,6 +764,7 @@
             "audio": "k_letter_audio",
             "image": "k_letter",
             "tint": "0x0000FF",
+            "text": "k",
             "tts": true
         },
         "l": {
@@ -770,6 +773,7 @@
             "audio": "l_letter_audio",
             "image": "l_letter",
             "tint": "0x0000FF",
+            "text": "l",
             "tts": true
         },
         "m": {
@@ -778,6 +782,7 @@
             "audio": "m_letter_audio",
             "image": "m_letter",
             "tint": "0x0000FF",
+            "text": "m",
             "tts": true
         },
         "n": {
@@ -786,6 +791,7 @@
             "audio": "n_letter_audio",
             "image": "n_letter",
             "tint": "0x0000FF",
+            "text": "n",
             "tts": true
         },
         "o": {
@@ -794,6 +800,7 @@
             "audio": "o_letter_audio",
             "image": "o_letter",
             "tint": "0x0000FF",
+            "text": "o",
             "tts": true
         },
         "p": {
@@ -802,6 +809,7 @@
             "audio": "p_letter_audio",
             "image": "p_letter",
             "tint": "0x0000FF",
+            "text": "p",
             "tts": true
         },
         "q": {
@@ -810,6 +818,7 @@
             "audio": "q_letter_audio",
             "image": "q_letter",
             "tint": "0x0000FF",
+            "text": "q",
             "tts": true
         },
         "r": {
@@ -818,6 +827,7 @@
             "audio": "r_letter_audio",
             "image": "r_letter",
             "tint": "0x0000FF",
+            "text": "r",
             "tts": true
         },
         "s": {
@@ -826,6 +836,7 @@
             "audio": "s_letter_audio",
             "image": "s_letter",
             "tint": "0x0000FF",
+            "text": "s",
             "tts": true
         },
         "t": {
@@ -834,6 +845,7 @@
             "audio": "t_letter_audio",
             "image": "t_letter",
             "tint": "0x0000FF",
+            "text": "t",
             "tts": true
         },
         "u": {
@@ -842,6 +854,7 @@
             "audio": "u_letter_audio",
             "image": "u_letter",
             "tint": "0x0000FF",
+            "text": "u",
             "tts": true
         },
         "v": {
@@ -850,6 +863,7 @@
             "audio": "v_letter_audio",
             "image": "v_letter",
             "tint": "0x0000FF",
+            "text": "v",
             "tts": true
         },
         "w": {
@@ -858,6 +872,7 @@
             "audio": "w_letter_audio",
             "image": "w_letter",
             "tint": "0x0000FF",
+            "text": "w",
             "tts": true
         },
         "x": {
@@ -866,6 +881,7 @@
             "audio": "x_letter_audio",
             "image": "x_letter",
             "tint": "0x0000FF",
+            "text": "x",
             "tts": true
         },
         "y": {
@@ -874,6 +890,7 @@
             "audio": "y_letter_audio",
             "image": "y_letter",
             "tint": "0x0000FF",
+            "text": "y",
             "tts": true
         },
         "z": {
@@ -882,6 +899,7 @@
             "audio": "z_letter_audio",
             "image": "z_letter",
             "tint": "0x0000FF",
+            "text": "z",
             "tts": true
         }
     },

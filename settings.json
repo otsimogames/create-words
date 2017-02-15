@@ -3,16 +3,6 @@
     "id": "/",
     "type": "object",
     "properties": {
-        "difficulty": {
-            "id": "difficulty",
-            "type": "string",
-            "default": "medium",
-            "enum": [
-                "easy",
-                "medium",
-                "hard"
-            ]
-        },
         "show_hint": {
             "id": "show_hint",
             "type": "boolean",
