@@ -19,7 +19,7 @@
     "exclude": [],
     "settings": "settings.json",
     "kv_path": "data",
-    "loading_color": "#FAC51C",
+    "loading_color": "#90A39D",
     "metadata": [
         {
             "language": "en",
