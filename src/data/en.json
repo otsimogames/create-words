@@ -122,7 +122,7 @@
         {
             "name": "congratulations",
             "type": "audio",
-            "path": "audio/congratulations.mp3"
+            "path": "audio/en/congratulations!.mp3"
         },
         {
             "name": "finish",
@@ -403,6 +403,271 @@
             "name": "z_letter",
             "type": "image",
             "path": "img/letters/z.png"
+        }, 
+        {
+            "name": "a_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/apple.mp3"
+        },
+        {
+            "name": "b_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/bag.mp3"
+        },
+        {
+            "name": "c_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/cow.mp3"
+        }, 
+        {
+            "name": "d_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/dog.mp3"
+        },
+        {
+            "name": "e_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/elephant.mp3"
+        },
+        {
+            "name": "f_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/fish.mp3"
+        },
+        {
+            "name": "g_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/guitar.mp3"
+        },
+        {
+            "name": "h_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/hamburger.mp3"
+        },
+        {
+            "name": "i_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/ice-cream.mp3"
+        },
+        {
+            "name": "j_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/jar.mp3"
+        },
+        {
+            "name": "k_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/kettle.mp3"
+        },
+        {
+            "name": "l_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/leaf.mp3"
+        },
+        {
+            "name": "m_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/mouse.mp3"
+        },
+        {
+            "name": "n_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/notebook.mp3"
+        },
+        {
+            "name": "o_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/orange.mp3"
+        }, 
+        {
+            "name": "p_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/pizza.mp3"
+        },
+         {
+            "name": "q_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/quail.mp3"
+        },
+        {
+            "name": "r_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/rabbit.mp3"
+        },
+        {
+            "name": "s_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/seal.mp3"
+        }, 
+        {
+            "name": "t_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/three.mp3"
+        },
+        {
+            "name": "u_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/umbrella.mp3"
+        },
+         {
+            "name": "v_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/vase.mp3"
+        },
+        {
+            "name": "w_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/watermelon.mp3"
+        }, 
+        {
+            "name": "x_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/xylophone.mp3"
+        },
+        {
+            "name": "y_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/yoyo.mp3"
+        },
+        {
+            "name": "z_word_audio",
+            "type": "audio",
+            "path": "audio/soundeeng/zucchini.mp3"
+        },
+        {
+            "name": "a_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/a.mp3"
+        },
+        {
+            "name": "b_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/b.mp3"
+        },
+        {
+            "name": "c_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/c.mp3"
+        },
+        {
+            "name": "c-_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/c-.mp3"
+        },
+        {
+            "name": "d_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/d.mp3"
+        },
+        {
+            "name": "e_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/e.mp3"
+        },
+        {
+            "name": "f_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/f.mp3"
+        },
+        {
+            "name": "g_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/g.mp3"
+        }, 
+        {
+            "name": "h_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/h.mp3"
+        },
+        {
+            "name": "i_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/i.mp3"
+        }, 
+        {
+            "name": "j_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/j.mp3"
+        },
+        {
+            "name": "k_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/k.mp3"
+        },
+        {
+            "name": "l_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/l.mp3"
+        },
+        {
+            "name": "m_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/m.mp3"
+        },
+        {
+            "name": "n_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/n.mp3"
+        },
+        {
+            "name": "o_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/o.mp3"
+        }, 
+        {
+            "name": "p_letter_audio",
+            "type": "audio",
+            "path": "audio/sound/p.mp3"
+        },
+         {
+            "name": "q_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/q.mp3"
+        },
+        {
+            "name": "r_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/r.mp3"
+        },
+        {
+            "name": "s_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/s.mp3"
+        }, 
+        {
+            "name": "t_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/t.mp3"
+        },
+        {
+            "name": "u_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/u.mp3"
+        }, 
+        {
+            "name": "v_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/v.mp3"
+        }, 
+        {
+            "name": "w_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/w.mp3"
+        }, 
+        {
+            "name": "x_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/x.mp3"
+        },
+        {
+            "name": "y_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/y.mp3"
+        },
+        {
+            "name": "z_letter_audio",
+            "type": "audio",
+            "path": "audio/soundeng/z.mp3"
         }
     ],
     "words": [
@@ -413,8 +678,7 @@
             "question": "a_word_question",
             "tint": "0x0000FF",
             "text": "apple",
-            "image": "a_word",
-            "tts": true
+            "image": "a_word" 
         },
         {
             "id": "b_word",
@@ -423,8 +687,7 @@
             "question": "b_word_question",
             "tint": "0x0000FF",
             "text": "bag",
-            "image": "b_word",
-            "tts": true
+            "image": "b_word" 
         },
         {
             "id": "c_word",
@@ -433,8 +696,7 @@
             "question": "c_word_question",
             "tint": "0x0000FF",
             "text": "cow",
-            "image": "c_word",
-            "tts": true
+            "image": "c_word" 
         },
         {
             "id": "d_word",
@@ -443,8 +705,7 @@
             "question": "d_word_question",
             "tint": "0x0000FF",
             "text": "dog",
-            "image": "d_word",
-            "tts": true
+            "image": "d_word" 
         },
         {
             "id": "e_word",
@@ -453,8 +714,7 @@
             "question": "e_word_question",
             "tint": "0x0000FF",
             "text": "elephant",
-            "image": "e_word",
-            "tts": true
+            "image": "e_word" 
         },
         {
             "id": "f_word",
@@ -463,8 +723,7 @@
             "question": "f_word_question",
             "tint": "0x0000FF",
             "text": "fish",
-            "image": "f_word",
-            "tts": true
+            "image": "f_word" 
         },
         {
             "id": "g_word",
@@ -473,8 +732,7 @@
             "question": "g_word_question",
             "tint": "0x0000FF",
             "text": "guitar",
-            "image": "g_word",
-            "tts": true
+            "image": "g_word" 
         },
         {
             "id": "h_word",
@@ -483,8 +741,7 @@
             "question": "h_word_question",
             "tint": "0x0000FF",
             "text": "hamburger",
-            "image": "h_word",
-            "tts": true
+            "image": "h_word" 
         },
         {
             "id": "i_word",
@@ -493,8 +750,7 @@
             "question": "i_word_question",
             "tint": "0x0000FF",
             "text": "ice cream",
-            "image": "i_word",
-            "tts": true
+            "image": "i_word" 
         },
         {
             "id": "j_word",
@@ -503,8 +759,7 @@
             "question": "j_word_question",
             "tint": "0x0000FF",
             "text": "jar",
-            "image": "j_word",
-            "tts": true
+            "image": "j_word" 
         },
         {
             "id": "k_word",
@@ -513,8 +768,7 @@
             "question": "k_word_question",
             "tint": "0x0000FF",
             "text": "kettle",
-            "image": "k_word",
-            "tts": true
+            "image": "k_word" 
         },
         {
             "id": "l_word",
@@ -523,8 +777,7 @@
             "question": "l_word_question",
             "tint": "0x0000FF",
             "text": "leaf",
-            "image": "l_word",
-            "tts": true
+            "image": "l_word" 
         },
         {
             "id": "m_word",
@@ -533,8 +786,7 @@
             "question": "m_word_question",
             "tint": "0x0000FF",
             "text": "mouse",
-            "image": "m_word",
-            "tts": true
+            "image": "m_word" 
         },
         {
             "id": "n_word",
@@ -543,8 +795,7 @@
             "question": "n_word_question",
             "tint": "0x0000FF",
             "text": "notebook",
-            "image": "n_word",
-            "tts": true
+            "image": "n_word" 
         },
         {
             "id": "o_word",
@@ -553,8 +804,7 @@
             "question": "o_word_question",
             "tint": "0x0000FF",
             "text": "orange",
-            "image": "o_word",
-            "tts": true
+            "image": "o_word" 
         },
         {
             "id": "p_word",
@@ -563,8 +813,7 @@
             "question": "p_word_question",
             "tint": "0x0000FF",
             "text": "pizza",
-            "image": "p_word",
-            "tts": true
+            "image": "p_word" 
         },
         {
             "id": "q_word",
@@ -573,8 +822,7 @@
             "question": "q_word_question",
             "tint": "0x0000FF",
             "text": "quail",
-            "image": "q_word",
-            "tts": true
+            "image": "q_word" 
         },
         {
             "id": "r_word",
@@ -583,8 +831,7 @@
             "question": "r_word_question",
             "tint": "0x0000FF",
             "text": "rabbit",
-            "image": "r_word",
-            "tts": true
+            "image": "r_word" 
         },
         {
             "id": "s_word",
@@ -593,8 +840,7 @@
             "question": "s_word_question",
             "tint": "0x0000FF",
             "text": "seal",
-            "image": "s_word",
-            "tts": true
+            "image": "s_word" 
         },
         {
             "id": "t_word",
@@ -603,8 +849,7 @@
             "question": "t_word_question",
             "tint": "0x0000FF",
             "text": "tree",
-            "image": "t_word",
-            "tts": true
+            "image": "t_word" 
         },
         {
             "id": "u_word",
@@ -613,8 +858,7 @@
             "question": "u_word_question",
             "tint": "0x0000FF",
             "text": "umbrella",
-            "image": "u_word",
-            "tts": true
+            "image": "u_word" 
         },
         {
             "id": "v_word",
@@ -623,8 +867,7 @@
             "question": "v_word_question",
             "tint": "0x0000FF",
             "text": "vase",
-            "image": "v_word",
-            "tts": true
+            "image": "v_word" 
         },
         {
             "id": "w_word",
@@ -633,8 +876,7 @@
             "question": "w_word_question",
             "tint": "0x0000FF",
             "text": "watermelon",
-            "image": "w_word",
-            "tts": true
+            "image": "w_word" 
         },
         {
             "id": "x_word",
@@ -643,8 +885,7 @@
             "question": "x_word_question",
             "tint": "0x0000FF",
             "text": "xylophone",
-            "image": "x_word",
-            "tts": true
+            "image": "x_word" 
         },
         {
             "id": "y_word",
@@ -653,8 +894,7 @@
             "question": "y_word_question",
             "tint": "0x0000FF",
             "text": "yoyo",
-            "image": "y_word",
-            "tts": true
+            "image": "y_word" 
         },
         {
             "id": "z_word",
@@ -663,8 +903,7 @@
             "question": "z_word_question",
             "tint": "0x0000FF",
             "text": "zucchini",
-            "image": "z_word",
-            "tts": true
+            "image": "z_word"  
         }
     ],
     "letters": {
@@ -674,8 +913,7 @@
             "audio": "a_letter_audio",
             "image": "a_letter",
             "tint": "0x0000FF",
-            "text": "a",
-            "tts": true
+            "text": "a" 
         },
         "b": {
             "id": "b_letter",
@@ -683,8 +921,7 @@
             "audio": "b_letter_audio",
             "image": "b_letter",
             "tint": "0x0000FF",
-            "text": "b",
-            "tts": true
+            "text": "b" 
         },
         "c": {
             "id": "c_letter",
@@ -692,8 +929,7 @@
             "audio": "c_letter_audio",
             "image": "c_letter",
             "tint": "0x0000FF",
-            "text": "c",
-            "tts": true
+            "text": "c" 
         },
         "d": {
             "id": "d_letter",
@@ -701,8 +937,7 @@
             "audio": "d_letter_audio",
             "image": "d_letter",
             "tint": "0x0000FF",
-            "text": "d",
-            "tts": true
+            "text": "d" 
         },
         "e": {
             "id": "e_letter",
@@ -710,8 +945,7 @@
             "audio": "e_letter_audio",
             "image": "e_letter",
             "tint": "0x0000FF",
-            "text": "e",
-            "tts": true
+            "text": "e" 
         },
         "f": {
             "id": "f_letter",
@@ -719,8 +953,7 @@
             "audio": "f_letter_audio",
             "image": "f_letter",
             "tint": "0x0000FF",
-            "text": "f",
-            "tts": true
+            "text": "f" 
         },
         "g": {
             "id": "g_letter",
@@ -728,8 +961,7 @@
             "audio": "g_letter_audio",
             "image": "g_letter",
             "tint": "0x0000FF",
-            "text": "g",
-            "tts": true
+            "text": "g" 
         },
         "h": {
             "id": "h_letter",
@@ -737,8 +969,7 @@
             "audio": "h_letter_audio",
             "image": "h_letter",
             "tint": "0x0000FF",
-            "text": "h",
-            "tts": true
+            "text": "h" 
         },
         "i": {
             "id": "i_letter",
@@ -746,8 +977,7 @@
             "audio": "i_letter_audio",
             "image": "i_letter",
             "tint": "0x0000FF",
-            "text": "i",
-            "tts": true
+            "text": "i" 
         },
         "j": {
             "id": "j_letter",
@@ -755,8 +985,7 @@
             "audio": "j_letter_audio",
             "image": "j_letter",
             "tint": "0x0000FF",
-            "text": "j",
-            "tts": true
+            "text": "j" 
         },
         "k": {
             "id": "k_letter",
@@ -764,8 +993,7 @@
             "audio": "k_letter_audio",
             "image": "k_letter",
             "tint": "0x0000FF",
-            "text": "k",
-            "tts": true
+            "text": "k" 
         },
         "l": {
             "id": "l_letter",
@@ -773,8 +1001,7 @@
             "audio": "l_letter_audio",
             "image": "l_letter",
             "tint": "0x0000FF",
-            "text": "l",
-            "tts": true
+            "text": "l" 
         },
         "m": {
             "id": "m_letter",
@@ -782,8 +1009,7 @@
             "audio": "m_letter_audio",
             "image": "m_letter",
             "tint": "0x0000FF",
-            "text": "m",
-            "tts": true
+            "text": "m" 
         },
         "n": {
             "id": "n_letter",
@@ -791,8 +1017,7 @@
             "audio": "n_letter_audio",
             "image": "n_letter",
             "tint": "0x0000FF",
-            "text": "n",
-            "tts": true
+            "text": "n" 
         },
         "o": {
             "id": "o_letter",
@@ -800,8 +1025,7 @@
             "audio": "o_letter_audio",
             "image": "o_letter",
             "tint": "0x0000FF",
-            "text": "o",
-            "tts": true
+            "text": "o" 
         },
         "p": {
             "id": "p_letter",
@@ -809,8 +1033,7 @@
             "audio": "p_letter_audio",
             "image": "p_letter",
             "tint": "0x0000FF",
-            "text": "p",
-            "tts": true
+            "text": "p" 
         },
         "q": {
             "id": "q_letter",
@@ -818,8 +1041,7 @@
             "audio": "q_letter_audio",
             "image": "q_letter",
             "tint": "0x0000FF",
-            "text": "q",
-            "tts": true
+            "text": "q" 
         },
         "r": {
             "id": "r_letter",
@@ -827,8 +1049,7 @@
             "audio": "r_letter_audio",
             "image": "r_letter",
             "tint": "0x0000FF",
-            "text": "r",
-            "tts": true
+            "text": "r" 
         },
         "s": {
             "id": "s_letter",
@@ -836,8 +1057,7 @@
             "audio": "s_letter_audio",
             "image": "s_letter",
             "tint": "0x0000FF",
-            "text": "s",
-            "tts": true
+            "text": "s" 
         },
         "t": {
             "id": "t_letter",
@@ -845,8 +1065,7 @@
             "audio": "t_letter_audio",
             "image": "t_letter",
             "tint": "0x0000FF",
-            "text": "t",
-            "tts": true
+            "text": "t" 
         },
         "u": {
             "id": "u_letter",
@@ -854,8 +1073,7 @@
             "audio": "u_letter_audio",
             "image": "u_letter",
             "tint": "0x0000FF",
-            "text": "u",
-            "tts": true
+            "text": "u" 
         },
         "v": {
             "id": "v_letter",
@@ -863,8 +1081,7 @@
             "audio": "v_letter_audio",
             "image": "v_letter",
             "tint": "0x0000FF",
-            "text": "v",
-            "tts": true
+            "text": "v" 
         },
         "w": {
             "id": "w_letter",
@@ -872,8 +1089,7 @@
             "audio": "w_letter_audio",
             "image": "w_letter",
             "tint": "0x0000FF",
-            "text": "w",
-            "tts": true
+            "text": "w" 
         },
         "x": {
             "id": "x_letter",
@@ -881,8 +1097,7 @@
             "audio": "x_letter_audio",
             "image": "x_letter",
             "tint": "0x0000FF",
-            "text": "x",
-            "tts": true
+            "text": "x" 
         },
         "y": {
             "id": "y_letter",
@@ -890,8 +1105,7 @@
             "audio": "y_letter_audio",
             "image": "y_letter",
             "tint": "0x0000FF",
-            "text": "y",
-            "tts": true
+            "text": "y" 
         },
         "z": {
             "id": "z_letter",
@@ -899,8 +1113,7 @@
             "audio": "z_letter_audio",
             "image": "z_letter",
             "tint": "0x0000FF",
-            "text": "z",
-            "tts": true
+            "text": "z" 
         }
     },
     "layout": {
