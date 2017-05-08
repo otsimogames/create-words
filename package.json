@@ -1,6 +1,6 @@
 {
     "name": "otsimo-create-words",
-    "version": "1.1.12",
+    "version": "1.1.16",
     "description": "",
     "repository": {
         "type": "git",
@@ -10,9 +10,9 @@
     "license": "Apache 2",
     "homepage": "https://github.com/otsimogames/create-words",
     "dependencies": {
-        "phaser": "^2.6.1",
-        "otsimo": "^1.4.0",
-        "otsimo-core-create-words": "^1.0.0"
+        "otsimo": "^1.6.9",
+        "otsimo-core-create-words": "^1.0.0",
+        "phaser": "^2.6.1"
     },
     "scripts": {
         "test": "eslint js/*.js",
@@ -22,6 +22,7 @@
         "staging": "gulp build && otsimoctl -s game publish --release --dir builds/prod"
     },
     "devDependencies": {
+        "autism-colors": "^1.0.0",
         "babel-core": "^6.3.21",
         "babel-plugin-transform-es5-property-mutators": "^6.3.13",
         "babel-plugin-transform-object-assign": "^6.3.13",
@@ -42,7 +43,6 @@
         "require-dir": "^0.3.0",
         "run-sequence": "^1.1.5",
         "vinyl-buffer": "^1.0.0",
-        "vinyl-source-stream": "^1.1.0",
-        "autism-colors": "^1.0.0"
+        "vinyl-source-stream": "^1.1.0"
     }
 }
