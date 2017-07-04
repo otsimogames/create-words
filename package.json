@@ -1,6 +1,6 @@
 {
     "name": "otsimo-create-words",
-    "version": "1.1.16",
+    "version": "1.1.20",
     "description": "",
     "repository": {
         "type": "git",
@@ -10,7 +10,7 @@
     "license": "Apache 2",
     "homepage": "https://github.com/otsimogames/create-words",
     "dependencies": {
-        "otsimo": "^1.6.9",
+        "otsimo": "1.8.15",
         "otsimo-core-create-words": "^1.0.0",
         "phaser": "^2.6.1"
     },

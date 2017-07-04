@@ -1,6 +1,6 @@
 {
     "unique_name": "create-words",
-    "version": "1.1.16",
+    "version": "1.1.20",
     "main": "index.html",
     "licence": "Apache 2",
     "languages": [
@@ -11,7 +11,8 @@
     "developer_name": "Otsimo",
     "ab_test": "",
     "labels": {
-        "categories": "ordering,letter,word,create"
+        "categories": "ordering,letter,word,create",
+        "analytics": "playing-duration,success-failure"
     },
     "homepage": "https://github.com/otsimogames/create-words",
     "repository": "https://github.com/otsimogames/create-words.git",
