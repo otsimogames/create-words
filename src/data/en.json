@@ -125,7 +125,7 @@
             "path": "audio/en/congratulations!.mp3"
         },
         {
-            "name": "finish",
+            "name": "finishSound",
             "type": "audio",
             "path": "audio/finish.mp3"
         },
@@ -550,9 +550,9 @@
             "path": "audio/soundeng/c.mp3"
         },
         {
-            "name": "c-_letter_audio",
+            "name": "victorySound",
             "type": "audio",
-            "path": "audio/soundeng/c-.mp3"
+            "path": "audio/en/congratulations!.mp3"
         },
         {
             "name": "d_letter_audio",
@@ -617,7 +617,7 @@
         {
             "name": "p_letter_audio",
             "type": "audio",
-            "path": "audio/sound/p.mp3"
+            "path": "audio/soundeng/p.mp3"
         },
          {
             "name": "q_letter_audio",
@@ -1136,7 +1136,6 @@
         "finish_sound": "finishSound",
         "text": {
             "text": "Congratulations",
-            "sound": "congSound",
             "style": {
                 "strokeThickness": 18,
                 "stroke": "#FFFFFF",
@@ -1186,7 +1185,7 @@
         "hand_match_duration": 900
     },
     "game": {
-        "session_step": 10,
+        "session_step": 6,
         "limit_score": 0,
         "score_per_letter": 2,
         "balloon_options": {
@@ -1220,5 +1219,13 @@
         "volume_home_screen": 1,
         "volume_play_screen": 0.3,
         "volume_over_screen": 0.7
+    },
+    "loading_bar": {
+        "color": "#ff9999",
+        "sprite": {
+            "name": "load_bar",
+            "type": "image",
+            "path": "img/load_bar.png"
+        }
     }
 }
